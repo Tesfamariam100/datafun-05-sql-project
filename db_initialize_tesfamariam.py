@@ -1,15 +1,16 @@
 """
-Python and SQL Project: db_operations_tesfamariam.py
+Python and SQL Project: db_initialize_Tesfamariam.py
 
-This script contains the main logic for SQL operations, including database initialization,
-data insertion, updating records, deleting records, and various querying operations.
+This script contains the logic for initializing the database schema and populating it with initial data.
 
 Author: Tesfamariam
-Date: 2024-02-08
+Date: [Date]
 
 Usage:
-- Ensure the database is initialized using db_initialize_tesfamariam.py before running this script.
-- Make sure to review and adjust the SQL queries as needed for your specific project requirements.
+- Run this script to create the database schema and populate it with initial data.
+- Make sure to review and adjust the SQL statements in the script according to your project requirements.
 """
+
+
 
 # Your Python code goes here
