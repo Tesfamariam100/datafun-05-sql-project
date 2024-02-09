@@ -62,3 +62,4 @@ py -m pip freeze > requirements.txt
 ## Documentation and Contributions
 - Document your project workflow, commands, and structure in the README.md file.
 - Contributions and suggestions for improvement are welcome. Open issues or submit pull requests as needed.
+
