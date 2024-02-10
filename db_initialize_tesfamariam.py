@@ -1,6 +1,13 @@
 """ 
+Python and SQL Project: db_initialize_tesfamariam.py
 
-Python and SQL project: db_initialize_tesfamariam.py
+This script initializes the database schema and populates it with initial data for the project.
 
-This script contains the logic for initializing the database schema and populating it with initial data.
+Author: [Your Name]
+Date: [Current Date]
+
+Usage:
+- Run this script to create the database schema and populate it with initial data.
+- Make sure to review and adjust the SQL queries as needed for your specific project requirements.
+"""
 
