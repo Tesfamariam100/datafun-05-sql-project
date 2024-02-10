@@ -53,6 +53,26 @@ conn.close()
 
 print("Database initialized successfully.")
 
+import sqlite3
+
+# Connect to the SQLite database
+conn = sqlite3.connect('library.db')
+cursor = conn.cursor()
+
+# Alter the authors table to add a new column
+alter_table_query = """
+ALTER TABLE authors
+ADD COLUMN author_email TEXT;
+"""
+
+# Execute the ALTER TABLE statement
+cursor.execute(alter_table_query)
+
+# Commit the transaction
+conn.commit()
+
+# Close the connection
+conn.close()
 
 
 
