@@ -23,6 +23,7 @@ create_authors_table = """
 CREATE TABLE IF NOT EXISTS authors (
     author_id INTEGER PRIMARY KEY,
     author_name TEXT NOT NULL
+    author_email Text
 );
 """
 
@@ -72,6 +73,27 @@ cursor.execute(alter_table_query)
 conn.commit()
 
 # Close the connection
+conn.close()
+import sqlite3
+
+# Connect to the SQLite database
+conn = sqlite3.connect('library.db')
+cursor = conn.cursor()
+
+# Define SQL statement to create the authors table
+create_authors_table = """
+CREATE TABLE IF NOT EXISTS authors (
+    author_id INTEGER PRIMARY KEY,
+    author_name TEXT NOT NULL,
+    author_email TEXT
+);
+"""
+
+# Execute SQL statement to create the authors table
+cursor.execute(create_authors_table)
+
+# Commit changes and close connection
+conn.commit()
 conn.close()
 
 
