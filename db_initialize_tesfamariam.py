@@ -3,8 +3,8 @@ Python and SQL Project: db_initialize_tesfamariam.py
 
 This script initializes the database schema and populates it with initial data for the project.
 
-Author: [Your Name]
-Date: [Current Date]
+Author: Tesfamariam
+Date: 2023-09-02
 
 Usage:
 - Run this script to create the database schema and populate it with initial data.
