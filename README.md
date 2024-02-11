@@ -37,7 +37,7 @@ py -m pip freeze > requirements.txt
 
 
 ## Python Scripts
-- **db_initialize_tesfamariam.py**: Script for initializing the database schema and populating it with initial data.
+- **db_operation.py**: Script for initializing the database schema and populating it with initial data.
 - **db_operations_tesfamariam.py**: Script for performing various SQL operations on the database.
 
 ## Logging
@@ -61,5 +61,5 @@ py -m pip freeze > requirements.txt
 
 ## Documentation and Contributions
 - Document your project workflow, commands, and structure in the README.md file.
-- Contributions and suggestions for improvement are welcome. Open issues or submit pull requests as needed.
+
 
