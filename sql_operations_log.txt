@@ -1,0 +1,20 @@
+2024-02-11 14:58:12,303 - ERROR - Error executing SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\create_tables.sql: near "import": syntax error
+2024-02-11 14:58:12,308 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\insert_records.sql
+2024-02-11 14:58:12,309 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\update_records.sql
+2024-02-11 14:58:12,311 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\delete_records.sql
+2024-02-11 14:58:12,312 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\query_aggregation.sql
+2024-02-11 14:58:12,314 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\query_filter.sql
+2024-02-11 14:58:12,315 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\query_sorting.sql
+2024-02-11 14:58:12,317 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\query_group_by.sql
+2024-02-11 14:58:12,320 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\query_join.sql
+2024-02-11 14:58:12,321 - INFO - All SQL operations completed successfully
+2024-02-11 14:58:23,692 - ERROR - Error executing SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\create_tables.sql: near "import": syntax error
+2024-02-11 14:58:23,694 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\insert_records.sql
+2024-02-11 14:58:23,695 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\update_records.sql
+2024-02-11 14:58:23,697 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\delete_records.sql
+2024-02-11 14:58:23,698 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\query_aggregation.sql
+2024-02-11 14:58:23,699 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\query_filter.sql
+2024-02-11 14:58:23,700 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\query_sorting.sql
+2024-02-11 14:58:23,701 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\query_group_by.sql
+2024-02-11 14:58:23,702 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\query_join.sql
+2024-02-11 14:58:23,702 - INFO - All SQL operations completed successfully
