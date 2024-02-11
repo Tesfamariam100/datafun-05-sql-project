@@ -1,1 +1,5 @@
 2024-02-11 00:34:28,512 - INFO - Program started
+2024-02-11 13:53:41,190 - INFO - Program started
+2024-02-11 13:53:41,192 - INFO - Database created successfully.
+2024-02-11 13:53:41,192 - ERROR - An error occurred during SQL operations: [Errno 2] No such file or directory: 'create_tables.sql'
+2024-02-11 13:53:41,193 - INFO - Database connection closed.

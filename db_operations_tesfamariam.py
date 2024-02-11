@@ -13,51 +13,69 @@ Usage:
 """
 
 import sqlite3
+import logging
 import pandas as pd
-import pathlib
+from pathlib import Path
+
+# Configure logging
+logging.basicConfig(filename='log.txt', level=logging.DEBUG, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
+logging.info("Program started") 
 
 # Define the database file path
-db_file = 'library.db'
+db_file = Path('library.db')
 
-# Connect to the SQLite database
-conn = sqlite3.connect(db_file)
-cursor = conn.cursor()
+def create_database():
+    """Create SQLite database."""
+    try:
+        conn = sqlite3.connect(db_file)
+        logging.info("Database created successfully.")
+        return conn
+    except sqlite3.Error as e:
+        logging.error("Error creating the database: %s", e)
+        raise
 
-# Define SQL statements to create tables
-create_authors_table = """
-CREATE TABLE IF NOT EXISTS authors (
-    author_id INTEGER PRIMARY KEY,
-    author_name TEXT NOT NULL,
-    author_email TEXT,
-    author_country TEXT
-);
-"""
+def create_tables(conn):
+    """Create tables in the database."""
+    try:
+        with conn:
+            sql_file = Path("create_tables.sql")
+            with open(sql_file, "r") as file:
+                sql_script = file.read()
+            conn.executescript(sql_script)
+        logging.info("Tables created successfully.")
+    except sqlite3.Error as e:
+        logging.error("Error creating tables: %s", e)
+        raise
 
-create_books_table = """
-CREATE TABLE IF NOT EXISTS books (
-    book_id INTEGER PRIMARY KEY,
-    book_title TEXT NOT NULL,
-    book_genre TEXT,
-    book_published_date TEXT,
-    author_id INTEGER,
-    FOREIGN KEY (author_id) REFERENCES authors (author_id)
-);
-"""
+def insert_data_from_csv(conn):
+    """Insert data from CSV files into tables."""
+    try:
+        with conn:
+            author_data_path = Path("data", "authors.csv")
+            book_data_path = Path("data", "books.csv")
+            authors_df = pd.read_csv(author_data_path)
+            books_df = pd.read_csv(book_data_path)
+            authors_df.to_sql("authors", conn, if_exists="replace", index=False)
+            books_df.to_sql("books", conn, if_exists="replace", index=False)
+        logging.info("Data inserted successfully.")
+    except (sqlite3.Error, pd.errors.EmptyDataError, FileNotFoundError) as e:
+        logging.error("Error inserting data: %s", e)
+        raise
 
-# Execute SQL statements to create tables
-cursor.execute(create_authors_table)
-cursor.execute(create_books_table)
+def main():
+    try:
+        conn = create_database()
+        create_tables(conn)
+        insert_data_from_csv(conn)
+        logging.info("All SQL operations completed successfully")
+    except Exception as e:
+        logging.error("An error occurred during SQL operations: %s", e)
+    finally:
+        if conn:
+            conn.close()
+            logging.info("Database connection closed.")
 
-# Load data from CSV files
-authors_df = pd.read_csv('data/authors.csv')
-books_df = pd.read_csv('data/books.csv')
+if __name__ == "__main__":
+    main()
+    print("Database updated successfully.")
 
-# Insert data into tables
-authors_df.to_sql('authors', conn, if_exists='replace', index=False)
-books_df.to_sql('books', conn, if_exists='replace', index=False)
-
-# Commit changes and close connection
-conn.commit()
-conn.close()
-
-print("Database updated successfully.")
