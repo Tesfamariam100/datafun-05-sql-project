@@ -22,7 +22,7 @@ logging.basicConfig(filename='log.txt', level=logging.DEBUG, filemode='a', forma
 logging.info("Program started") 
 
 # Define the database file path
-db_file = Path('library.db')
+db_file = Path.cwd() / "library.db"
 
 def create_database():
     """Create SQLite database."""
