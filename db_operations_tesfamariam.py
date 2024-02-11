@@ -14,6 +14,7 @@ Usage:
 
 import sqlite3
 import pandas as pd
+import pathlib
 
 # Define the database file path
 db_file = 'library.db'
