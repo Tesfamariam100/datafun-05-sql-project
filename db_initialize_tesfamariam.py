@@ -1,100 +1,42 @@
-"""
-Python and SQL Project: db_initialize_tesfamariam.py
-
-This script initializes the database schema and populates it with initial data for the project.
-
-Author: Tesfamariam
-Date: 2023-09-02
-
-Usage:
-- Run this script to create the database schema and populate it with initial data.
-- Make sure to review and adjust the SQL queries as needed for your specific project requirements.
-"""
+# db_initialize_tesfamariam.py
 
 import sqlite3
-import pandas as pd
+import logging
 
-# Connect to the SQLite database
-conn = sqlite3.connect('library.db')
-cursor = conn.cursor()
+# Configure logging to write to a file, appending new logs to the existing file
+logging.basicConfig(filename='log.txt', level=logging.DEBUG, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
+logging.info("Program started") 
 
-# Define SQL statements to create tables
-create_authors_table = """
-CREATE TABLE IF NOT EXISTS authors (
-    author_id INTEGER PRIMARY KEY,
-    author_name TEXT NOT NULL
-    author_email Text
-);
-"""
+def create_database():
+    conn = sqlite3.connect('library.db')
+    conn.close()
 
-create_books_table = """
-CREATE TABLE IF NOT EXISTS books (
-    book_id INTEGER PRIMARY KEY,
-    book_title TEXT NOT NULL,
-    author_id INTEGER,
-    FOREIGN KEY (author_id) REFERENCES authors (author_id)
-);
-"""
+def create_tables():
+    with sqlite3.connect('library.db') as conn:
+        cursor = conn.cursor()
+        with open('create_tables.sql', 'r') as file:
+            sql_script = file.read()
+        cursor.executescript(sql_script)
+        logging.debug("Tables created successfully")
 
-# Execute SQL statements to create tables
-cursor.execute(create_authors_table)
-cursor.execute(create_books_table)
+def insert_data_from_csv():
+    try:
+        conn = sqlite3.connect('library.db')
+        authors_df = pd.read_csv('data/authors.csv')
+        books_df = pd.read_csv('data/books.csv')
+        authors_df.to_sql('authors', conn, if_exists='append', index=False)
+        books_df.to_sql('books', conn, if_exists='append', index=False)
+        logging.debug("Data inserted successfully")
+    except Exception as e:
+        logging.exception(f"Error occurred while inserting data: {e}")
+    finally:
+        conn.close()
 
-# Read data from CSV files using pandas
-authors_df = pd.read_csv('data/authors.csv')
-books_df = pd.read_csv('data/books.csv')
+def main():
+    create_database()
+    create_tables()
+    insert_data_from_csv()
+    logging.info("Program ended")
 
-# Insert data into the tables
-authors_df.to_sql('authors', conn, if_exists='append', index=False)
-books_df.to_sql('books', conn, if_exists='append', index=False)
-
-# Commit changes and close connection
-conn.commit()
-conn.close()
-
-print("Database initialized successfully.")
-
-import sqlite3
-
-# Connect to the SQLite database
-conn = sqlite3.connect('library.db')
-cursor = conn.cursor()
-
-# Alter the authors table to add a new column
-alter_table_query = """
-ALTER TABLE authors
-ADD COLUMN author_email TEXT;
-"""
-
-# Execute the ALTER TABLE statement
-cursor.execute(alter_table_query)
-
-# Commit the transaction
-conn.commit()
-
-# Close the connection
-conn.close()
-import sqlite3
-
-# Connect to the SQLite database
-conn = sqlite3.connect('library.db')
-cursor = conn.cursor()
-
-# Define SQL statement to create the authors table
-create_authors_table = """
-CREATE TABLE IF NOT EXISTS authors (
-    author_id INTEGER PRIMARY KEY,
-    author_name TEXT NOT NULL,
-    author_email TEXT
-);
-"""
-
-# Execute SQL statement to create the authors table
-cursor.execute(create_authors_table)
-
-# Commit changes and close connection
-conn.commit()
-conn.close()
-
-
-
+if __name__ == "__main__":
+    main()
