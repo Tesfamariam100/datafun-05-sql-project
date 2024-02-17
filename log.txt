@@ -3,3 +3,23 @@
 2024-02-11 13:53:41,192 - INFO - Database created successfully.
 2024-02-11 13:53:41,192 - ERROR - An error occurred during SQL operations: [Errno 2] No such file or directory: 'create_tables.sql'
 2024-02-11 13:53:41,193 - INFO - Database connection closed.
+2024-02-16 01:54:33,145 - INFO - Program started
+2024-02-16 01:54:33,147 - INFO - Database created successfully.
+2024-02-16 01:54:33,148 - ERROR - Error creating tables: near "import": syntax error
+2024-02-16 01:54:33,148 - ERROR - An error occurred during SQL operations: near "import": syntax error
+2024-02-16 01:54:33,149 - INFO - Database connection closed.
+2024-02-16 02:03:07,229 - INFO - Program started
+2024-02-16 02:03:07,231 - INFO - Database created successfully.
+2024-02-16 02:03:07,232 - ERROR - Error creating tables: near "import": syntax error
+2024-02-16 02:03:07,233 - ERROR - An error occurred during SQL operations: near "import": syntax error
+2024-02-16 02:03:07,233 - INFO - Database connection closed.
+2024-02-16 02:11:42,659 - INFO - Program started
+2024-02-16 02:11:42,660 - INFO - Program ended
+2024-02-16 02:13:07,785 - INFO - Program started
+2024-02-16 02:13:07,786 - INFO - Program ended
+2024-02-16 02:34:25,824 - INFO - Program started
+2024-02-16 02:34:25,825 - INFO - Program ended
+2024-02-16 02:36:00,874 - INFO - Program started
+2024-02-16 02:36:00,875 - INFO - Program ended
+2024-02-16 02:41:00,672 - INFO - Program started
+2024-02-16 02:41:00,673 - INFO - Program ended
