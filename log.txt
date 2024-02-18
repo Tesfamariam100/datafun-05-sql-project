@@ -23,3 +23,76 @@
 2024-02-16 02:36:00,875 - INFO - Program ended
 2024-02-16 02:41:00,672 - INFO - Program started
 2024-02-16 02:41:00,673 - INFO - Program ended
+2024-02-17 14:29:52,719 - INFO - Program started
+2024-02-17 14:29:52,721 - INFO - Database created successfully.
+2024-02-17 14:29:52,722 - ERROR - Error creating tables: near "import": syntax error
+2024-02-17 14:29:52,723 - ERROR - An error occurred during SQL operations: near "import": syntax error
+2024-02-17 14:29:52,723 - INFO - Database connection closed.
+2024-02-17 14:45:33,882 - INFO - Program started
+2024-02-17 14:45:33,885 - INFO - Database created successfully.
+2024-02-17 14:45:33,886 - ERROR - Error creating tables: near "import": syntax error
+2024-02-17 14:45:33,886 - ERROR - An error occurred during SQL operations: near "import": syntax error
+2024-02-17 14:45:33,886 - INFO - Database connection closed.
+2024-02-17 14:46:10,743 - INFO - Program started
+2024-02-17 14:46:10,745 - INFO - Database created successfully.
+2024-02-17 14:46:10,747 - ERROR - Error creating tables: near "import": syntax error
+2024-02-17 14:46:10,747 - ERROR - An error occurred during SQL operations: near "import": syntax error
+2024-02-17 14:46:10,747 - INFO - Database connection closed.
+2024-02-17 18:53:46,981 - INFO - Program started
+2024-02-17 18:53:46,982 - INFO - Database created successfully.
+2024-02-17 18:53:46,983 - ERROR - Error creating tables: near "import": syntax error
+2024-02-17 18:53:46,983 - ERROR - An error occurred during SQL operations: near "import": syntax error
+2024-02-17 18:53:46,984 - INFO - Database connection closed.
+2024-02-17 19:07:14,203 - INFO - Program started
+2024-02-17 19:07:14,205 - INFO - Database created successfully.
+2024-02-17 19:07:14,206 - ERROR - Error creating tables: near "import": syntax error
+2024-02-17 19:07:14,206 - ERROR - An error occurred during SQL operations: near "import": syntax error
+2024-02-17 19:07:14,207 - INFO - Database connection closed.
+2024-02-17 19:13:51,686 - INFO - Program started
+2024-02-17 19:13:51,686 - INFO - Database created successfully.
+2024-02-17 19:13:51,720 - INFO - Tables created successfully.
+2024-02-17 19:13:51,810 - INFO - Data inserted successfully.
+2024-02-17 19:13:51,813 - INFO - All SQL operations completed successfully
+2024-02-17 19:13:51,814 - INFO - Database connection closed.
+2024-02-17 19:18:48,363 - INFO - Program started
+2024-02-17 19:18:48,365 - INFO - Database created successfully.
+2024-02-17 19:18:48,368 - INFO - Tables created successfully.
+2024-02-17 19:18:48,494 - INFO - Data inserted successfully.
+2024-02-17 19:18:48,495 - INFO - All SQL operations completed successfully
+2024-02-17 19:18:48,495 - INFO - Database connection closed.
+2024-02-17 19:37:52,857 - INFO - Program started
+2024-02-17 19:37:52,859 - INFO - Database created successfully.
+2024-02-17 19:37:52,889 - INFO - Tables created successfully.
+2024-02-17 19:37:52,952 - INFO - Data inserted successfully.
+2024-02-17 19:37:52,953 - INFO - All SQL operations completed successfully
+2024-02-17 19:37:52,954 - INFO - Database connection closed.
+2024-02-17 20:50:12,160 - INFO - Program started
+2024-02-17 20:50:12,162 - INFO - Database created successfully.
+2024-02-17 20:50:12,183 - INFO - Tables created successfully.
+2024-02-17 20:50:12,233 - INFO - Data inserted successfully.
+2024-02-17 20:50:12,233 - INFO - All SQL operations completed successfully
+2024-02-17 20:50:12,234 - INFO - Database connection closed.
+2024-02-17 20:54:29,254 - INFO - Program started
+2024-02-17 20:54:29,256 - INFO - Database created successfully.
+2024-02-17 20:54:29,259 - INFO - Tables created successfully.
+2024-02-17 20:54:29,324 - INFO - Data inserted successfully.
+2024-02-17 20:54:29,325 - INFO - All SQL operations completed successfully
+2024-02-17 20:54:29,325 - INFO - Database connection closed.
+2024-02-17 20:55:56,872 - INFO - Program started
+2024-02-17 20:55:56,874 - INFO - Database created successfully.
+2024-02-17 20:55:56,875 - INFO - Tables created successfully.
+2024-02-17 20:55:56,962 - INFO - Data inserted successfully.
+2024-02-17 20:55:56,963 - INFO - All SQL operations completed successfully
+2024-02-17 20:55:56,963 - INFO - Database connection closed.
+2024-02-17 20:56:25,319 - INFO - Program started
+2024-02-17 20:56:25,321 - INFO - Database created successfully.
+2024-02-17 20:56:25,348 - INFO - Tables created successfully.
+2024-02-17 20:56:25,422 - INFO - Data inserted successfully.
+2024-02-17 20:56:25,422 - INFO - All SQL operations completed successfully
+2024-02-17 20:56:25,423 - INFO - Database connection closed.
+2024-02-17 21:19:26,293 - INFO - Program started
+2024-02-17 21:19:26,294 - INFO - Database created successfully.
+2024-02-17 21:19:26,319 - INFO - Tables created successfully.
+2024-02-17 21:19:26,379 - INFO - Data inserted successfully.
+2024-02-17 21:19:26,380 - INFO - All SQL operations completed successfully
+2024-02-17 21:19:26,380 - INFO - Database connection closed.

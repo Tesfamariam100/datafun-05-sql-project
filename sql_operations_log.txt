@@ -18,3 +18,338 @@
 2024-02-11 14:58:23,701 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\query_group_by.sql
 2024-02-11 14:58:23,702 - INFO - Executed SQL from C:\Users\Tesfamariam\datafun-05-sql-project\sql\query_join.sql
 2024-02-11 14:58:23,702 - INFO - All SQL operations completed successfully
+2024-02-17 12:40:58,556 - INFO - Program started
+2024-02-17 12:40:58,572 - INFO - Database created successfully.
+2024-02-17 12:40:58,577 - ERROR - Error creating tables: near "import": syntax error
+2024-02-17 12:40:58,704 - INFO - Data inserted successfully.
+2024-02-17 12:40:58,708 - INFO - Executed SQL from insert_records.sql
+2024-02-17 12:40:58,711 - INFO - Executed SQL from update_records.sql
+2024-02-17 12:40:58,714 - INFO - Executed SQL from delete_records.sql
+2024-02-17 12:40:58,716 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 12:40:58,720 - INFO - Executed SQL from query_filter.sql
+2024-02-17 12:40:58,723 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 12:40:58,727 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 12:40:58,729 - INFO - Executed SQL from query_join.sql
+2024-02-17 12:40:58,729 - INFO - All SQL operations completed successfully
+2024-02-17 13:14:09,425 - INFO - Program started
+2024-02-17 13:17:27,328 - INFO - Program started
+2024-02-17 13:22:19,649 - INFO - Program started
+2024-02-17 13:22:58,601 - INFO - Program started
+2024-02-17 13:23:52,087 - INFO - Program started
+2024-02-17 13:23:52,089 - INFO - Executed SQL from library.db
+2024-02-17 13:28:30,239 - INFO - Program started
+2024-02-17 13:28:30,241 - INFO - Executed SQL from library.db
+2024-02-17 13:36:21,456 - INFO - Program started
+2024-02-17 13:36:21,459 - INFO - Executed SQL from library.db
+2024-02-17 13:40:47,787 - INFO - Program started
+2024-02-17 13:40:47,788 - INFO - Executed SQL from library.db
+2024-02-17 13:40:47,790 - ERROR - An exception occurred: name 'some_function_that_may_raise_an_exception' is not defined
+2024-02-17 13:42:04,167 - INFO - Program started
+2024-02-17 13:42:04,167 - INFO - Executed SQL from library.db
+2024-02-17 13:42:04,171 - ERROR - An exception occurred: name 'some_function_that_may_raise_an_exception' is not defined
+2024-02-17 13:42:34,575 - INFO - Program started
+2024-02-17 13:42:34,576 - INFO - Executed SQL from library.db
+2024-02-17 13:42:34,578 - ERROR - An exception occurred: name 'some_function_that_may_raise_an_exception' is not defined
+2024-02-17 13:46:11,902 - INFO - Program started
+2024-02-17 13:46:11,905 - INFO - Executed SQL from library.db
+2024-02-17 13:46:11,907 - ERROR - An exception occurred: name 'some_function_that_may_raise_an_exception' is not defined
+2024-02-17 14:26:52,742 - INFO - Program started
+2024-02-17 14:26:52,761 - INFO - Executed SQL from insert_records.sql
+2024-02-17 14:26:52,763 - INFO - Executed SQL from update_records.sql
+2024-02-17 14:26:52,765 - INFO - Executed SQL from delete_records.sql
+2024-02-17 14:26:52,767 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 14:26:52,770 - INFO - Executed SQL from query_filter.sql
+2024-02-17 14:26:52,773 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 14:26:52,775 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 14:26:52,777 - INFO - Executed SQL from query_join.sql
+2024-02-17 14:26:52,777 - INFO - All SQL operations completed successfully
+2024-02-17 14:30:51,236 - INFO - Program started
+2024-02-17 14:30:51,238 - INFO - Executed SQL from insert_records.sql
+2024-02-17 14:30:51,240 - INFO - Executed SQL from update_records.sql
+2024-02-17 14:30:51,242 - INFO - Executed SQL from delete_records.sql
+2024-02-17 14:30:51,244 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 14:30:51,247 - INFO - Executed SQL from query_filter.sql
+2024-02-17 14:30:51,248 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 14:30:51,250 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 14:30:51,253 - INFO - Executed SQL from query_join.sql
+2024-02-17 14:30:51,253 - INFO - All SQL operations completed successfully
+2024-02-17 14:51:02,165 - INFO - Program started
+2024-02-17 14:51:02,169 - INFO - Executed SQL from insert_records.sql
+2024-02-17 14:51:02,171 - INFO - Executed SQL from update_records.sql
+2024-02-17 14:51:02,173 - INFO - Executed SQL from delete_records.sql
+2024-02-17 14:51:02,175 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 14:51:02,178 - INFO - Executed SQL from query_filter.sql
+2024-02-17 14:51:02,181 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 14:51:02,183 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 14:51:02,185 - INFO - Executed SQL from query_join.sql
+2024-02-17 14:51:02,186 - INFO - All SQL operations completed successfully
+2024-02-17 14:52:17,781 - INFO - Program started
+2024-02-17 14:52:17,784 - INFO - Executed SQL from insert_records.sql
+2024-02-17 14:52:17,786 - INFO - Executed SQL from update_records.sql
+2024-02-17 14:52:17,789 - INFO - Executed SQL from delete_records.sql
+2024-02-17 14:52:17,791 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 14:52:17,793 - INFO - Executed SQL from query_filter.sql
+2024-02-17 14:52:17,795 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 14:52:17,797 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 14:52:17,800 - INFO - Executed SQL from query_join.sql
+2024-02-17 14:52:17,800 - INFO - All SQL operations completed successfully
+2024-02-17 14:55:25,291 - INFO - Program started
+2024-02-17 14:55:25,294 - INFO - Executed SQL from insert_records.sql
+2024-02-17 14:55:25,296 - INFO - Executed SQL from update_records.sql
+2024-02-17 14:55:25,298 - INFO - Executed SQL from delete_records.sql
+2024-02-17 14:55:25,300 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 14:55:25,302 - INFO - Executed SQL from query_filter.sql
+2024-02-17 14:55:25,304 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 14:55:25,306 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 14:55:25,308 - INFO - Executed SQL from query_join.sql
+2024-02-17 14:55:25,309 - INFO - All SQL operations completed successfully
+2024-02-17 14:56:28,281 - INFO - Program started
+2024-02-17 14:56:28,285 - INFO - Executed SQL from insert_records.sql
+2024-02-17 14:56:28,288 - INFO - Executed SQL from update_records.sql
+2024-02-17 14:56:28,290 - INFO - Executed SQL from delete_records.sql
+2024-02-17 14:56:28,292 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 14:56:28,294 - INFO - Executed SQL from query_filter.sql
+2024-02-17 14:56:28,296 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 14:56:28,298 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 14:56:28,301 - INFO - Executed SQL from query_join.sql
+2024-02-17 14:56:28,301 - INFO - All SQL operations completed successfully
+2024-02-17 15:00:28,710 - INFO - Program started
+2024-02-17 15:00:28,713 - INFO - Executed SQL from insert_records.sql
+2024-02-17 15:00:28,714 - INFO - Executed SQL from update_records.sql
+2024-02-17 15:00:28,716 - INFO - Executed SQL from delete_records.sql
+2024-02-17 15:00:28,717 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 15:00:28,719 - INFO - Executed SQL from query_filter.sql
+2024-02-17 15:00:28,721 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 15:00:28,724 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 15:00:28,726 - INFO - Executed SQL from query_join.sql
+2024-02-17 15:00:28,727 - INFO - All SQL operations completed successfully
+2024-02-17 15:08:36,585 - INFO - Program started
+2024-02-17 15:08:36,593 - INFO - Executed SQL from insert_records.sql
+2024-02-17 15:08:36,596 - INFO - Executed SQL from update_records.sql
+2024-02-17 15:08:36,598 - INFO - Executed SQL from delete_records.sql
+2024-02-17 15:08:36,601 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 15:08:36,608 - INFO - Executed SQL from query_filter.sql
+2024-02-17 15:08:36,611 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 15:08:36,615 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 15:08:36,617 - INFO - Executed SQL from query_join.sql
+2024-02-17 15:08:36,617 - INFO - All SQL operations completed successfully
+2024-02-17 15:09:25,315 - INFO - Program started
+2024-02-17 15:09:25,318 - INFO - Executed SQL from insert_records.sql
+2024-02-17 15:09:25,320 - INFO - Executed SQL from update_records.sql
+2024-02-17 15:09:25,322 - INFO - Executed SQL from delete_records.sql
+2024-02-17 15:09:25,324 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 15:09:25,328 - INFO - Executed SQL from query_filter.sql
+2024-02-17 15:09:25,330 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 15:09:25,332 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 15:09:25,334 - INFO - Executed SQL from query_join.sql
+2024-02-17 15:09:25,334 - INFO - All SQL operations completed successfully
+2024-02-17 15:09:44,402 - INFO - Program started
+2024-02-17 15:09:44,406 - INFO - Executed SQL from insert_records.sql
+2024-02-17 15:09:44,409 - INFO - Executed SQL from update_records.sql
+2024-02-17 15:09:44,410 - INFO - Executed SQL from delete_records.sql
+2024-02-17 15:09:44,412 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 15:09:44,416 - INFO - Executed SQL from query_filter.sql
+2024-02-17 15:09:44,418 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 15:09:44,421 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 15:09:44,423 - INFO - Executed SQL from query_join.sql
+2024-02-17 15:09:44,424 - INFO - All SQL operations completed successfully
+2024-02-17 15:32:04,438 - INFO - Program started
+2024-02-17 15:32:04,440 - INFO - Executed SQL from insert_records.sql
+2024-02-17 15:32:04,442 - INFO - Executed SQL from update_records.sql
+2024-02-17 15:32:04,443 - INFO - Executed SQL from delete_records.sql
+2024-02-17 15:32:04,445 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 15:32:04,446 - INFO - Executed SQL from query_filter.sql
+2024-02-17 15:32:04,448 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 15:32:04,449 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 15:32:04,451 - INFO - Executed SQL from query_join.sql
+2024-02-17 15:32:04,451 - INFO - All SQL operations completed successfully
+2024-02-17 19:18:54,633 - INFO - Program started
+2024-02-17 19:18:54,635 - INFO - Executed SQL from insert_records.sql
+2024-02-17 19:18:54,637 - INFO - Executed SQL from update_records.sql
+2024-02-17 19:18:54,639 - INFO - Executed SQL from delete_records.sql
+2024-02-17 19:18:54,641 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 19:18:54,644 - INFO - Executed SQL from query_filter.sql
+2024-02-17 19:18:54,647 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 19:18:54,649 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 19:18:54,651 - INFO - Executed SQL from query_join.sql
+2024-02-17 19:18:54,652 - INFO - All SQL operations completed successfully
+2024-02-17 19:20:15,720 - INFO - Program started
+2024-02-17 19:20:15,723 - INFO - Executed SQL from insert_records.sql
+2024-02-17 19:20:15,725 - INFO - Executed SQL from update_records.sql
+2024-02-17 19:20:15,727 - INFO - Executed SQL from delete_records.sql
+2024-02-17 19:20:15,729 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 19:20:15,732 - INFO - Executed SQL from query_filter.sql
+2024-02-17 19:20:15,734 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 19:20:15,738 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 19:20:15,745 - INFO - Executed SQL from query_join.sql
+2024-02-17 19:20:15,746 - INFO - All SQL operations completed successfully
+2024-02-17 19:38:27,926 - INFO - Program started
+2024-02-17 19:38:27,929 - INFO - Executed SQL from insert_records.sql
+2024-02-17 19:38:27,932 - INFO - Executed SQL from update_records.sql
+2024-02-17 19:38:27,934 - INFO - Executed SQL from delete_records.sql
+2024-02-17 19:38:27,937 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 19:38:27,939 - INFO - Executed SQL from query_filter.sql
+2024-02-17 19:38:27,941 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 19:38:27,943 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 19:38:27,947 - INFO - Executed SQL from query_join.sql
+2024-02-17 19:38:27,948 - INFO - All SQL operations completed successfully
+2024-02-17 20:10:31,442 - INFO - Program started
+2024-02-17 20:10:31,446 - INFO - Executed SQL from insert_records.sql
+2024-02-17 20:10:31,448 - INFO - Executed SQL from update_records.sql
+2024-02-17 20:10:31,450 - INFO - Executed SQL from delete_records.sql
+2024-02-17 20:10:31,452 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 20:10:31,454 - INFO - Executed SQL from query_filter.sql
+2024-02-17 20:10:31,456 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 20:10:31,459 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 20:10:31,464 - INFO - Executed SQL from query_join.sql
+2024-02-17 20:10:31,464 - INFO - All SQL operations completed successfully
+2024-02-17 20:10:48,643 - INFO - Program started
+2024-02-17 20:10:48,646 - INFO - Executed SQL from insert_records.sql
+2024-02-17 20:10:48,648 - INFO - Executed SQL from update_records.sql
+2024-02-17 20:10:48,650 - INFO - Executed SQL from delete_records.sql
+2024-02-17 20:10:48,652 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 20:10:48,654 - INFO - Executed SQL from query_filter.sql
+2024-02-17 20:10:48,656 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 20:10:48,658 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 20:10:48,661 - INFO - Executed SQL from query_join.sql
+2024-02-17 20:10:48,661 - INFO - All SQL operations completed successfully
+2024-02-17 20:48:19,137 - INFO - Program started
+2024-02-17 20:48:19,141 - ERROR - Error executing SQL from insert_records.sql: near ".": syntax error
+2024-02-17 20:48:19,143 - INFO - Executed SQL from update_records.sql
+2024-02-17 20:48:19,145 - INFO - Executed SQL from delete_records.sql
+2024-02-17 20:48:19,147 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 20:48:19,150 - INFO - Executed SQL from query_filter.sql
+2024-02-17 20:48:19,152 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 20:48:19,154 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 20:48:19,156 - INFO - Executed SQL from query_join.sql
+2024-02-17 20:48:19,156 - INFO - All SQL operations completed successfully
+2024-02-17 20:56:44,267 - INFO - Program started
+2024-02-17 20:56:44,270 - ERROR - Error executing SQL from insert_records.sql: near ".": syntax error
+2024-02-17 20:56:44,272 - INFO - Executed SQL from update_records.sql
+2024-02-17 20:56:44,274 - INFO - Executed SQL from delete_records.sql
+2024-02-17 20:56:44,276 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 20:56:44,279 - INFO - Executed SQL from query_filter.sql
+2024-02-17 20:56:44,281 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 20:56:44,284 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 20:56:44,289 - INFO - Executed SQL from query_join.sql
+2024-02-17 20:56:44,289 - INFO - All SQL operations completed successfully
+2024-02-17 21:00:17,959 - INFO - Program started
+2024-02-17 21:00:17,963 - ERROR - Error executing SQL from insert_records.sql: near ".": syntax error
+2024-02-17 21:00:17,965 - INFO - Executed SQL from update_records.sql
+2024-02-17 21:00:17,967 - INFO - Executed SQL from delete_records.sql
+2024-02-17 21:00:17,970 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 21:00:17,972 - INFO - Executed SQL from query_filter.sql
+2024-02-17 21:00:17,974 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 21:00:17,977 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 21:00:17,979 - INFO - Executed SQL from query_join.sql
+2024-02-17 21:00:17,980 - INFO - All SQL operations completed successfully
+2024-02-17 21:18:31,562 - INFO - Program started
+2024-02-17 21:18:31,565 - ERROR - Error executing SQL from insert_records.sql: near ".": syntax error
+2024-02-17 21:18:31,567 - INFO - Executed SQL from update_records.sql
+2024-02-17 21:18:31,569 - INFO - Executed SQL from delete_records.sql
+2024-02-17 21:18:31,571 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 21:18:31,574 - INFO - Executed SQL from query_filter.sql
+2024-02-17 21:18:31,576 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 21:18:31,579 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 21:18:31,580 - INFO - Executed SQL from query_join.sql
+2024-02-17 21:18:31,581 - INFO - All SQL operations completed successfully
+2024-02-17 21:18:50,661 - INFO - Program started
+2024-02-17 21:18:50,665 - ERROR - Error executing SQL from insert_records.sql: near ".": syntax error
+2024-02-17 21:18:50,668 - INFO - Executed SQL from update_records.sql
+2024-02-17 21:18:50,670 - INFO - Executed SQL from delete_records.sql
+2024-02-17 21:18:50,673 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 21:18:50,675 - INFO - Executed SQL from query_filter.sql
+2024-02-17 21:18:50,678 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 21:18:50,681 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 21:18:50,684 - INFO - Executed SQL from query_join.sql
+2024-02-17 21:18:50,684 - INFO - All SQL operations completed successfully
+2024-02-17 21:21:50,227 - INFO - Program started
+2024-02-17 21:21:50,230 - ERROR - Error executing SQL from insert_records.sql: near ".": syntax error
+2024-02-17 21:21:50,232 - INFO - Executed SQL from update_records.sql
+2024-02-17 21:21:50,234 - INFO - Executed SQL from delete_records.sql
+2024-02-17 21:21:50,236 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 21:21:50,239 - INFO - Executed SQL from query_filter.sql
+2024-02-17 21:21:50,241 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 21:21:50,244 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 21:21:50,246 - INFO - Executed SQL from query_join.sql
+2024-02-17 21:21:50,246 - INFO - All SQL operations completed successfully
+2024-02-17 21:29:19,493 - INFO - Program started
+2024-02-17 21:29:19,499 - ERROR - Error executing SQL from insert_records.sql: near ".": syntax error
+2024-02-17 21:29:19,502 - ERROR - Error executing SQL from update_records.sql: no such column: book_id
+2024-02-17 21:29:19,505 - INFO - Executed SQL from delete_records.sql
+2024-02-17 21:29:19,506 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 21:29:19,511 - INFO - Executed SQL from query_filter.sql
+2024-02-17 21:29:19,513 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 21:29:19,516 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 21:29:19,518 - INFO - Executed SQL from query_join.sql
+2024-02-17 21:29:19,518 - INFO - All SQL operations completed successfully
+2024-02-17 21:52:21,471 - INFO - Program started
+2024-02-17 21:52:21,474 - ERROR - Error executing SQL from insert_records.sql: near ".": syntax error
+2024-02-17 21:52:21,478 - ERROR - Error executing SQL from update_records.sql: no such column: book_id
+2024-02-17 21:52:21,479 - INFO - Executed SQL from delete_records.sql
+2024-02-17 21:52:21,482 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 21:52:21,485 - INFO - Executed SQL from query_filter.sql
+2024-02-17 21:52:21,487 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 21:52:21,489 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 21:52:21,491 - INFO - Executed SQL from query_join.sql
+2024-02-17 21:52:21,492 - INFO - All SQL operations completed successfully
+2024-02-17 21:54:57,747 - INFO - Program started
+2024-02-17 21:54:57,750 - ERROR - Error executing SQL from insert_records.sql: near ".": syntax error
+2024-02-17 21:54:57,754 - ERROR - Error executing SQL from update_records.sql: no such column: book_id
+2024-02-17 21:54:57,756 - INFO - Executed SQL from delete_records.sql
+2024-02-17 21:54:57,759 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 21:54:57,761 - INFO - Executed SQL from query_filter.sql
+2024-02-17 21:54:57,764 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 21:54:57,766 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 21:54:57,769 - INFO - Executed SQL from query_join.sql
+2024-02-17 21:54:57,769 - INFO - All SQL operations completed successfully
+2024-02-17 21:56:16,231 - INFO - Program started
+2024-02-17 21:56:16,235 - INFO - Executed SQL from insert_records.sql
+2024-02-17 21:56:16,237 - ERROR - Error executing SQL from update_records.sql: no such column: book_id
+2024-02-17 21:56:16,239 - INFO - Executed SQL from delete_records.sql
+2024-02-17 21:56:16,243 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 21:56:16,250 - INFO - Executed SQL from query_filter.sql
+2024-02-17 21:56:16,253 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 21:56:16,275 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 21:56:16,302 - INFO - Executed SQL from query_join.sql
+2024-02-17 21:56:16,302 - INFO - All SQL operations completed successfully
+2024-02-17 21:57:17,336 - INFO - Program started
+2024-02-17 21:57:17,340 - INFO - Executed SQL from insert_records.sql
+2024-02-17 21:57:17,344 - ERROR - Error executing SQL from update_records.sql: no such column: book_id
+2024-02-17 21:57:17,346 - INFO - Executed SQL from delete_records.sql
+2024-02-17 21:57:17,350 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 21:57:17,352 - INFO - Executed SQL from query_filter.sql
+2024-02-17 21:57:17,356 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 21:57:17,358 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 21:57:17,360 - INFO - Executed SQL from query_join.sql
+2024-02-17 21:57:17,360 - INFO - All SQL operations completed successfully
+2024-02-17 21:58:46,318 - INFO - Program started
+2024-02-17 21:58:46,322 - INFO - Executed SQL from insert_records.sql
+2024-02-17 21:58:46,325 - ERROR - Error executing SQL from update_records.sql: no such column: book_id
+2024-02-17 21:58:46,328 - ERROR - Error executing SQL from delete_records.sql: no such column: book_id
+2024-02-17 21:58:46,335 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 21:58:46,342 - INFO - Executed SQL from query_filter.sql
+2024-02-17 21:58:46,432 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 21:58:46,443 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 21:58:46,464 - ERROR - Error executing SQL from query_join.sql: no such column: b.book_id
+2024-02-17 21:58:46,465 - INFO - All SQL operations completed successfully
+2024-02-17 22:06:19,580 - INFO - Program started
+2024-02-17 22:06:19,584 - INFO - Executed SQL from insert_records.sql
+2024-02-17 22:06:19,587 - INFO - Executed SQL from update_records.sql
+2024-02-17 22:06:19,590 - ERROR - Error executing SQL from delete_records.sql: no such column: book_id
+2024-02-17 22:06:19,594 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 22:06:19,597 - INFO - Executed SQL from query_filter.sql
+2024-02-17 22:06:19,601 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 22:06:19,606 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 22:06:19,614 - ERROR - Error executing SQL from query_join.sql: no such column: b.book_id
+2024-02-17 22:06:19,614 - INFO - All SQL operations completed successfully
+2024-02-17 22:07:45,898 - INFO - Program started
+2024-02-17 22:07:45,903 - INFO - Executed SQL from insert_records.sql
+2024-02-17 22:07:45,906 - INFO - Executed SQL from update_records.sql
+2024-02-17 22:07:45,909 - INFO - Executed SQL from delete_records.sql
+2024-02-17 22:07:45,913 - INFO - Executed SQL from query_aggregation.sql
+2024-02-17 22:07:45,917 - INFO - Executed SQL from query_filter.sql
+2024-02-17 22:07:45,921 - INFO - Executed SQL from query_sorting.sql
+2024-02-17 22:07:45,924 - INFO - Executed SQL from query_group_by.sql
+2024-02-17 22:07:45,928 - INFO - Executed SQL from query_join.sql
+2024-02-17 22:07:45,929 - INFO - All SQL operations completed successfully

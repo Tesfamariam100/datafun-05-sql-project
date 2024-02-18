@@ -1,62 +1,53 @@
-"""
-Python and SQL Project: db_operations_tesfamariam.py
-
-This script contains the main logic for SQL operations, including database initialization,
-data insertion, updating records, deleting records, and various querying operations.
-
-Author: Tesfamariam
-Date: 2024-02-08
-
-Usage:
-- Ensure the database is initialized using db_initialize_tesfamariam.py before running this script.
-- Make sure to review and adjust the SQL queries as needed for your specific project requirements.
-"""
-
-#This python program is responsible for sql script executions and modifications
-
-# Imports
-from pathlib import Path
-import pandas as pd
-import pathlib
-import logging
 import sqlite3
-logging.basicConfig(filename='log.txt', level=logging.DEBUG, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
+import logging
+import pandas as pd
+from pathlib import Path
 
+# Configure logging
+logging.basicConfig(filename='sql_operations_log.txt', level=logging.DEBUG, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
 logging.info("Program started")
-logging.info("Program ended")
+# Define the database file path
+db_file = Path.cwd() / "library.db"
 
-def execute_sql_from_file(db_filepath, sql_file):
-    with sqlite3.connect(db_filepath) as conn:
+
+def execute_sql_from_file(db_file, sql_file):
+    """Function to execute SQL commands from a file."""
+    try:
         with open(sql_file, 'r') as file:
             sql_script = file.read()
-        conn.executescript(sql_script)
+        with sqlite3.connect(db_file) as conn:
+            conn.executescript(sql_script)
         print(f"Executed SQL from {sql_file}")
+        logging.info(f"Executed SQL from {sql_file}")
+    except sqlite3.Error as e:
+        print(f"Error executing SQL from {sql_file}: {e}")
+        logging.error(f"Error executing SQL from {sql_file}: {e}")
 
-def main():from pathlib import Path
+def main():
+    try:
+        directory_path = Path('c:/Users/Tesfamariam/datafun-05-sql-project/')
+        db_filepath = directory_path / "library.db"
 
-# Define the directory path
-directory_path = Path("C:/Users/Tesfamariam/datafun-05-sql-project")
+        # Specify the correct path for SQL file
+        db_files = [
+            'insert_records.sql',
+            'update_records.sql',
+            'delete_records.sql',
+            'query_aggregation.sql',
+            'query_filter.sql',
+            'query_sorting.sql',
+            'query_group_by.sql',
+            'query_join.sql'
+        ]
 
-# Join the directory path with the filename to get the full file path
-db_filepath = directory_path / "library.db"
+        for sql_file in db_files:
+            execute_sql_from_file(db_filepath, sql_file)
 
-# Convert the path to string if needed
-db_filepath_str = str(db_filepath)
+        logging.info("All SQL operations completed successfully")
 
-# Now, db_filepath contains the full path to the "library.db" file
-print(db_filepath_str)
+    except Exception as e:
+        print(f"An exception occurred: {e}")
+        logging.error(f"An exception occurred: {e}")
 
-    
-db_filepath = pathlib.Path("C:/Users/Tesfamariam/datafun-05-sql-project")
-execute_sql_from_file(db_filepath, 'C:/Users/blehman/Projects/datafun-05-sql/sql_file/insert_records.sql')
-execute_sql_from_file(db_filepath, 'C:/Users/blehman/Projects/datafun-05-sql/sql_file/update_records.sql')
-execute_sql_from_file(db_filepath, 'C:/Users/blehman/Projects/datafun-05-sql/sql_file/delete_records.sql')
-execute_sql_from_file(db_filepath, 'C:/Users/blehman/Projects/datafun-05-sql/sql_file/query_aggregation.sql')
-execute_sql_from_file(db_filepath, 'C:/Users/blehman/Projects/datafun-05-sql/sql_file/query_filter.sql')
-execute_sql_from_file(db_filepath, 'C:/Users/blehman/Projects/datafun-05-sql/sql_file/query_sorting.sql')
-execute_sql_from_file(db_filepath, 'C:/Users/blehman/Projects/datafun-05-sql/sql_file/query_group_by.sql')
-execute_sql_from_file(db_filepath, 'C:/Users/blehman/Projects/datafun-05-sql/sql_file/query_join.sql')
-
-logging.info("All SQL operations completed successfully")
-
-if __name__ == "__main__":     main()
+if __name__ == "__main__":
+    main()
